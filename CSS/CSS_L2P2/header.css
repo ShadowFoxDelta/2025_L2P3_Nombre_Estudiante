@@ -1,0 +1,15 @@
+
+
+header{
+	background-color: green;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	padding: 10px;
+	width: 100%;
+}
+
+.headerItem{
+ 	align-content: center;
+ 	text-align: center;
+ 	vertical-align: center;
+}
