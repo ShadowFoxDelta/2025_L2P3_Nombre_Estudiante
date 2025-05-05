@@ -1,0 +1,99 @@
+
+body{
+background-color: forestgreen;
+}
+
+#contenedor{
+	margin-top: 25px;  
+}
+
+.navbar{
+font-size: 23px;
+font-weight: bold;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+#panelprincipal{
+	padding: 15px 15px 15px 15px;	
+}
+
+p{
+	color: gray;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 15px 15px 15px;
+}
+
+
+.imgcontenido{
+width: 300px;
+height: 400px;
+}
+.imgpanelderecho{
+	width: 100%;
+	height: auto;
+}
+
+.col-md-12 p{
+text-align: justify;
+color: black;
+}
+
+
+.col-md-4 p{
+text-align: justify;
+color: blue;
+
+}
+.col-md-6 p{
+	text-align: justify;
+	color: brown;
+}
+
+/* Estoy ajustando el tamaño de las  2 imágenes que están en los THUMBNAIL (Vistas miniaturas)
+Otra forma es asignando un id al div que contiene la clase col-md-6 */
+
+.col-md-6 img {
+	width: 100%;
+	height: auto; 
+}
+
+.col-md-8 p{
+text-align: justify;
+color: green;
+}
+
+h1{
+	color:white;
+	text-align: center
+}
+
+/* Vamos a agregarle un color de fondo (propiedad background-color), para ello instalaremos una paleta de colores en nuestro editor de texto con crtl shif p install package. Luego un margin: top que es la separación del bloque de arriba Además agregaremos un padding que son márgenes internos */ NO FUNCIONÓ
+
+footer{
+background-color: gray;
+margin-top: 40px;
+padding: 20px 20px 20px 20px;
+}
+
+/* Asignando un color y un tamaño de letra al párrafo que está específicamente dentro del footer */
+
+footer p{
+color:white;
+font-size: 18px;
+
+}
+.pies{
+  color: #000000;
+  text-align: center;
+}
+
