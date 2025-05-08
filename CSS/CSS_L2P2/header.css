@@ -13,3 +13,8 @@ header{
  	text-align: center;
  	vertical-align: center;
 }
+
+.headerItem img{
+	height:80px;
+	width:80px;
+}
