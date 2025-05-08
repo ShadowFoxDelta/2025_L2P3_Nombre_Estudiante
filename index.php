@@ -10,19 +10,7 @@
 <body>
 	<div><?php include("componentes/header.html")?></div><!--Incrustar header-->
 
-	<div class="jumbotron"><!--Inicio jumbotron-->
-		<div class="container">
-			<h1>Carrito de Compra</h1>
-			<ol class="breadcrumb">
-				<li>
-					<a href="#">Inicio</a>
-				</li>
-				<li class="active">
-					L2P2
-				</li>
-			</ol>
-		</div>
-	</div><!--Fin jumbotron-->
+	<div><?php include("componentes/jumbotron.html")?></div><!--Incrustar jumbotron-->
 
 
 	<div class="container"><!--Inicio contenedor-->
@@ -32,9 +20,11 @@
 			<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9"><!--Inicio contenedor izquierdo-->
 
 				<div class="panel panel-primary"><!--Inicio panel-->
-					<div class="panel-heading">
-						<h3 class="panel-title">Panel title</h3>
-					</div>
+					<div class="panel-heading"><!--Inicio titulo-->
+						<h3 class="panel-title">
+							<?php include("componentes/bar-title-products.html")?><!--incrustar titulo del panel-->
+						</h3>
+					</div><!--Fin panel-->
 					<div class="panel-body">
 						Panel content
 					</div>
