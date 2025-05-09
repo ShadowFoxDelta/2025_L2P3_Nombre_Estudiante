@@ -11,12 +11,12 @@
 </head>
 
 <body>
-	<div><?php include("componentes/comunes/header.html") ?></div><!--Incrustar header-->
+	<?php include("componentes/comunes/header.html") ?><!--Incrustar header-->
 
-	<div><?php include("componentes/comunes/jumbotron.html") ?></div><!--Incrustar header-->
+	<?php include("componentes/comunes/jumbotron.html") ?><!--Incrustar header-->
 
 	<?php include("./componentes/contenido.php") ?>
-	
+
 	<?php include("componentes/comunes/footer.html") ?> <!--Incrustar foooter-->
 </body>
 

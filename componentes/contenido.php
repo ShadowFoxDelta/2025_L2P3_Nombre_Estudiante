@@ -26,7 +26,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container contenido">
 
         <form action="" method="post">
             <div class="row">
@@ -39,6 +39,7 @@
             </div>
         </form>
 
+    </div>
 </body>
 
 </html>

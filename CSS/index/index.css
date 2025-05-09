@@ -13,3 +13,7 @@ text-decoration: none; /* Elimina el subrayado de los enlaces */
 .breadcrumb {
 	background-color: transparent !important; /* Elimina cualquier fondo del breadcrumb */
 }
+
+.contenido{
+	padding-bottom:  6em;
+}

@@ -5,8 +5,8 @@ body {
     line-height: 1.5 !important;
 }
 
-.container{
-    margin-top: 3rem;
+.container .contenido{
+  margin-top: 3rem;
 }
 
 .encabezado {
@@ -98,7 +98,7 @@ body {
     display: block;
     width: 100%;
     padding: 0.6rem;
-    background-color: #28a745;
+    background-color: #22825c;
     color: white;
     border: none;
     border-radius: 0.25rem;
@@ -109,5 +109,5 @@ body {
   }
   
   .checkout-btn:hover {
-    background-color: #218838;
+    background-color:  #1a6248;
   }
