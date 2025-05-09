@@ -1,3 +1,7 @@
+bodu{
+	width: 100%;
+}
+
 .jumbotron {
 	align-content: center; /* Alinea el contenido verticalmente en el contenedor */
 	text-align: center;    /* Centra horizontalmente todo el contenido dentro del jumbotron */
@@ -14,6 +18,6 @@ text-decoration: none; /* Elimina el subrayado de los enlaces */
 	background-color: transparent !important; /* Elimina cualquier fondo del breadcrumb */
 }
 
-.contenido{
-	padding-bottom:  6em;
+.contenido {
+	padding-bottom: 10em !important;
 }

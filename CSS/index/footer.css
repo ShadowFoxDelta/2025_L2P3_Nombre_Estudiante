@@ -6,6 +6,7 @@
     line-height: 1.6;
     border-top: 4px solid beige; /* azul bootstrap */
     border-radius: 15px 15px 0 0; /* Solo esquinas superiores */
+    margin-top: 8em; /* Esto asegura que el footer esté al final de la página */
 }
 
 .pies .container {
