@@ -1,3 +1,29 @@
+/* 
+
+Esta hoja de estilos contiene estilos aplicados a varios archivos PHP y HTML en el proyecto.
+
+-----------------------------------------------------------------------
+Estilos aplicados a contenido.php y archivos relacionados:
+- Estilos generales del cuerpo para fuente, tamaño y altura de línea.
+- `.container .contenido`: Agrega márgenes superior e inferior.
+- `.encabezado`: Estilos para una sección de encabezado con texto en negrita, alineación centrada y color de fondo.
+- `.dato-cols`: Asegura la altura completa para los elementos de columna.
+
+-----------------------------------------------------------------------------
+Estilos aplicados a productos.php:
+- `.toggle-row`: Define una fila clickeable con efectos hover y padding.
+- `.product-row`: Estilos para filas de productos con alineación y espaciado.
+- `.product-name-col`: Alinea el contenido del nombre del producto.
+- `.product-image`: Establece dimensiones y espaciado para imágenes de productos.
+
+-------------------------------------------------------------------------------
+Estilos aplicados a factura.html:
+- `.summary-box`: Estilos para un contenedor de resumen con padding, esquinas redondeadas y un diseño centrado.
+- `.summary-row`: Define filas dentro del cuadro de resumen, con variaciones para estilos en negrita y de advertencia.
+- `.product-detail-box`: Estilos para un contenedor detallado de productos con padding y esquinas redondeadas.
+- `.checkout-btn`: Estilos para un botón de pago con efectos hover y ancho responsivo.
+*/
+
 /* -----------------------------------------------------------------------aplicados a contenido.php y a cualquiera que se incluya  */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
