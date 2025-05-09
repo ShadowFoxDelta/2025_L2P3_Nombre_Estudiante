@@ -13,7 +13,7 @@
 <body>
 	<?php include("componentes/comunes/header.html") ?><!--Incrustar header-->
 
-	<?php include("componentes/comunes/jumbotron.html") ?><!--Incrustar header-->
+	<?php include("componentes/comunes/jumbotron.html") ?><!--Incrustar jumbotron-->
 
 <div class="contenido">
 <?php include("./componentes/contenido.php") ?> <!--Incrustar contenido-->
