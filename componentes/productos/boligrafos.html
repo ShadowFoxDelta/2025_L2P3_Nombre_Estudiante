@@ -1,0 +1,70 @@
+<!--                                                PRODUCTOS
+     *El codigo a continuacion representan filas de producto.
+     * Estructura:
+     * - Se utiliza un sistema de cuadrícula basado en Bootstrap para organizar el diseño en columnas.
+     * - Cada fila (`product-row`) contiene detalles de un solo producto.
+     * 
+     * Componentes:
+     * 1. Nombre e Imagen del Producto:
+     *    - Mostrado en la primera columna (`col-md-4`).
+     *    - Incluye una imagen (`product-image`) y el nombre del producto ("Fresh Oranges").
+     * 
+     * 2. Precio del Producto:
+     *    - Mostrado en la segunda columna (`col-md-2`).
+     *    - Muestra el precio del producto (por ejemplo, $11.75).
+     * 
+     * 3. Entrada de Cantidad:
+     *    - Mostrado en la tercera columna (`col-md-3`).
+     *    - Un campo de entrada (`spinner`) permite a los usuarios especificar la cantidad del producto.
+     *    - El campo de entrada tiene un atributo `data-precio` para almacenar el precio base del producto (por ejemplo, 10.00).
+     * 
+     * 4. Visualización del Subtotal:
+     *    - Mostrado en la cuarta columna (`col-md-3`).
+     *    - Un elemento span (`subtotal`) muestra el subtotal calculado para el producto basado en la cantidad ingresada.
+     *    - Inicialmente, el subtotal está configurado en "0.00".
+     * 
+     * Notas:
+     * - Los IDs (`prodA`, `totalA`) son parte de un sistema dinámico donde se puede usar JavaScript para calcular y actualizar el subtotal.
+        * - Detalles en el archivo touch_spinner.js
+     -->
+
+<!--------------------------------------------------------- Producto C ----------------------------------- -->
+<div class="row product-row">
+    <div class="col-md-4 product-name-col">
+        <img src="https://th.bing.com/th/id/OIP.Ls796OawS06fsuoS3npVNgHaLH?cb=iwp1&rs=1&pid=ImgDetMain"
+            class="product-image">
+        <div>
+            <strong>Paquete Bolígrafo</strong><br>
+            <small>Color azul</small>
+        </div>
+    </div>
+    <div class="col-md-2 dato-cols">$2.25</div>
+    <div class="col-md-3 dato-cols">
+        <input type="hidden" name="productos[2][nombre]" value="Paquete Bolígrafo Azul">
+        <input type="hidden" name="productos[2][precio]" value="2.25">
+        <input id="prodC" class="form-control spinner" type="number" name="productos[2][cantidad]" data-precio="2.25">
+    </div>
+    <div class="col-md-3 dato-cols">
+        <span id="totalC" class="subtotal">0.00</span>
+    </div>
+</div>
+
+
+<!--------------------------------------------------------- Producto D ----------------------------------- -->
+<div class="row product-row">
+    <div class="col-md-4 product-name-col">
+        <img src="https://tupublicista.com/wp-content/uploads/2022/11/rush-neon-NAR-768x768.jpg" class="product-image">
+        <div>
+            <strong>Bolígrafo Neon</strong><br>
+        </div>
+    </div>
+    <div class="col-md-2 dato-cols">$5.00</div>
+    <div class="col-md-3 dato-cols">
+        <input type="hidden" name="productos[3][nombre]" value="Bolígrafo Neon">
+        <input type="hidden" name="productos[3][precio]" value="5.00">
+        <input id="prodD" class="form-control spinner" type="number" name="productos[3][cantidad]" data-precio="5.00">
+    </div>
+    <div class="col-md-3 dato-cols">
+        <span id="totalD" class="subtotal">0.00</span>
+    </div>
+</div>

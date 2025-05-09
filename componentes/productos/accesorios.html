@@ -1,0 +1,89 @@
+<!--                                                PRODUCTOS
+     *El codigo a continuacion representan filas de producto.
+     * Estructura:
+     * - Se utiliza un sistema de cuadrícula basado en Bootstrap para organizar el diseño en columnas.
+     * - Cada fila (`product-row`) contiene detalles de un solo producto.
+     * 
+     * Componentes:
+     * 1. Nombre e Imagen del Producto:
+     *    - Mostrado en la primera columna (`col-md-4`).
+     *    - Incluye una imagen (`product-image`) y el nombre del producto ("Fresh Oranges").
+     * 
+     * 2. Precio del Producto:
+     *    - Mostrado en la segunda columna (`col-md-2`).
+     *    - Muestra el precio del producto (por ejemplo, $11.75).
+     * 
+     * 3. Entrada de Cantidad:
+     *    - Mostrado en la tercera columna (`col-md-3`).
+     *    - Un campo de entrada (`spinner`) permite a los usuarios especificar la cantidad del producto.
+     *    - El campo de entrada tiene un atributo `data-precio` para almacenar el precio base del producto (por ejemplo, 10.00).
+     * 
+     * 4. Visualización del Subtotal:
+     *    - Mostrado en la cuarta columna (`col-md-3`).
+     *    - Un elemento span (`subtotal`) muestra el subtotal calculado para el producto basado en la cantidad ingresada.
+     *    - Inicialmente, el subtotal está configurado en "0.00".
+     * 
+     * Notas:
+     * - Los IDs (`prodA`, `totalA`) son parte de un sistema dinámico donde se puede usar JavaScript para calcular y actualizar el subtotal.
+        * - Detalles en el archivo touch_spinner.js
+     -->
+
+<!--------------------------------------------------------- Producto E ----------------------------------- -->
+<div class="row product-row">
+   <div class="col-md-4 product-name-col">
+      <img src="https://tiimg.tistatic.com/fp/1/008/245/lightweight-and-durable-plastic-rectangular-30-cm-scale-for-measurement-705.jpg" class="product-image">
+      <div>
+         <strong>Regla</strong><br>
+         <small>30 cm</small>
+      </div>
+   </div>
+   <div class="col-md-2 dato-cols">$0.90</div>
+   <div class="col-md-3 dato-cols">
+      <input type="hidden" name="productos[4][nombre]" value="Regla 30 cm">
+      <input type="hidden" name="productos[4][precio]" value="0.90">
+      <input id="prodE" class="form-control spinner" type="number" name="productos[4][cantidad]" data-precio="0.90">
+   </div>
+   <div class="col-md-3 dato-cols">
+      <span id="totalE" class="subtotal">0.00</span>
+   </div>
+</div>
+
+
+<!--------------------------------------------------------- Producto F ----------------------------------- -->
+<div class="row product-row">
+   <div class="col-md-4 product-name-col">
+      <img src="https://www.monpanierscolaireenligne.ca/img/product/STD52650-B.jpg" class="product-image">
+      <div>
+         <strong>Borrador</strong><br>
+      </div>
+   </div>
+   <div class="col-md-2 dato-cols">$0.30</div>
+   <div class="col-md-3 dato-cols">
+      <input type="hidden" name="productos[5][nombre]" value="Borrador">
+      <input type="hidden" name="productos[5][precio]" value="0.30">
+      <input id="prodF" class="form-control spinner" type="number" name="productos[5][cantidad]" data-precio="0.30">
+   </div>
+   <div class="col-md-3 dato-cols">
+      <span id="totalF" class="subtotal">0.00</span>
+   </div>
+</div>
+
+
+<!--------------------------------------------------------- Producto G ----------------------------------- -->
+<div class="row product-row">
+   <div class="col-md-4 product-name-col">
+      <img src="https://tiendapopular.uy/wp-content/uploads/2023/03/Sacapunta-y-goma-600x600.jpg" class="product-image">
+      <div>
+         <strong>Sacapuntas</strong><br>
+      </div>
+   </div>
+   <div class="col-md-2 dato-cols">$0.45</div>
+   <div class="col-md-3 dato-cols">
+      <input type="hidden" name="productos[6][nombre]" value="Sacapuntas">
+      <input type="hidden" name="productos[6][precio]" value="0.45">
+      <input id="prodG" class="form-control spinner" type="number" name="productos[6][cantidad]" data-precio="0.45">
+   </div>
+   <div class="col-md-3 dato-cols">
+      <span id="totalG" class="subtotal">0.00</span>
+   </div>
+</div>
