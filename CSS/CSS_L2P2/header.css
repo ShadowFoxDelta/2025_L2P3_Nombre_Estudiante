@@ -1,24 +1,25 @@
-
-
-header{
-	background-color: #003366;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr; 
-	padding: 10px;
-	width: 100%;
+/* Estilo para el encabezado de la página */
+header {
+	background-color: #003366; /* Azul marino: color institucional/educativo */
+	display: grid; /* Se utiliza Grid Layout para organizar el contenido */
+	grid-template-columns: 1fr 1fr 1fr; /* Divide el encabezado en tres columnas iguales */
+	padding: 10px; /* Espacio interno alrededor del contenido del header */
+	width: 100%; /* Ocupa todo el ancho disponible */
 }
 
-.headerItem{
- 	align-content: center;
- 	text-align: center;
- 	vertical-align: center;
+/* Estilo para cada elemento dentro del header */
+.headerItem {
+	align-content: center; /* Centra el contenido dentro del área del grid en el eje vertical*/
+	text-align: center; /* Centra el texto horizontalmente */
 }
 
-.headerItem img{
-	height:100px;
-	width:100px;
+/* Estilo para imágenes dentro del header */
+.headerItem img {
+	height: 100px; /* Alto fijo para las imágenes */
+	width: 100px;  /* Ancho fijo para mantener */
 }
 
-.headerItem h3{
-	color: white;
+/* Estilo para títulos (h3) dentro del header */
+.headerItem h3 {
+	color: white; /* Color blanco para que contraste con el fondo azul */
 }
