@@ -102,6 +102,7 @@
 
 </body>
 
-<script src="./JS/touch_spinner.js"></script>
+<!-- Script que permite que al tocar los spinners se muestre en automatico el subtotal de los productos -->
+<script src="./JS/touch_spinner.js"></script> 
 
 </html>
