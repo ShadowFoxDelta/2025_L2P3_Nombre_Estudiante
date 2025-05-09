@@ -14,7 +14,6 @@
 	<div><?php include("componentes/comunes/header.html") ?></div><!--Incrustar header-->
 
 	<?php include("./componentes/contenido.php") ?>
-
 	
 	<div><?php include("componentes/comunes/footer.html") ?></div><!--Incrustar header-->
 </body>
