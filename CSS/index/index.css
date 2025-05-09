@@ -1,6 +1,13 @@
 .jumbotron {
 	align-content: center; /* Alinea el contenido verticalmente en el contenedor */
 	text-align: center;    /* Centra horizontalmente todo el contenido dentro del jumbotron */
+	height: auto;
+	padding: 0% 0% !important; /* Elimina el padding superior e inferior del jumbotron */;
+}
+
+.jumbotron a{
+text-decoration: none; /* Elimina el subrayado de los enlaces */
+	color: #000; /* Cambia el color del */
 }
 
 .breadcrumb {
